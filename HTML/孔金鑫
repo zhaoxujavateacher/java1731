@@ -1,0 +1,26 @@
++ <！DOCTYPE html>
+ + < html  lang = “ en ” >
+ + < head >
+ + < meta  charset = “ UTF-8 ” >
+ + < title >网页</ title >
+ + </ head >
+ + < body >
+ + < h1  align = “ center ” >课上学习</ h1 >
+ + </ tr >
+ + < form >
+ + < table  border = “ 1 ”  align = “ center ” >
+ + < tr >
+ + < th  colspan = “ 5 ” >学生成绩表</ th >
+ + </ tr >
+ + < tr >
+ + < th >姓名</ th >
+ + < th >班级</ th >
+ + < th >语文</ th >
+ + < th >数学</ th >
+ + < th >英语</ th >
+ + </ tr >
+ + < tr >
++ </ table >
+ + </ form >
+ + </ body >
+ + </ html >
