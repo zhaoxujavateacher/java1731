@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+</head>
+<body align="center">
+<br><br><br><br><br><br><h1>河南林业职业学院管理系统</h1>
+用户名：<input type="text"><br><br>
+密码：<input type="password"><br><br>
+<a href="xx.html"> <input type="submit" value="登录"></a>
+<a href="zc.html"><input type="submit" value="注册"></a>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+<form>
+    <table border="0" width="1500">
+        <tr>
+            <td colspan="7">欢迎**来到河南林业职业学院管理系统</td>
+            <td align="right"> <input type="submit" value="修改密码">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="submit" value="切换账号">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="submit" value="设置">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="submit" value="返回"></td>
+        </tr>
+        <tr>
+            <td><br><br><br><br>
+                <table border="0" >
+                    <tr>
+                        <input type="submit" value="学生信息管理"><br><br>
+                    </tr>
+                    <tr>
+                        <input type="submit" value="考试信息管理"><br><br>
+                    </tr>
+                    <tr>
+                        <input type="submit" value="请假记录管理"><br><br>
+                    </tr>
+                    <tr>
+                        <input type="submit" value="党员信息管理"><br><br>
+                    </tr>
+                    <tr>
+                        <input type="submit" value="节日活动管理"><br><br>
+                    </tr>
+                    <tr>
+                        <input type="submit" value="奖学金管理"><br><br>
+                    </tr>
+                    <tr>
+                        <input type="submit" value="学生会"><br><br>
+                    </tr>
+                    <tr>
+                        <input type="submit" value="获奖记录管理"><br><br>
+                    </tr>
+                </table>
+            </td>
+            <td><br><br>
+                <table border="1" cellpadding="0" cellspacing="0" height="330" width="1000" align="center">
+                    <tr>
+                        <th>学号</th>
+                        <th>姓名</th>
+                        <th>性别</th>
+                        <th width="200">身份证号</th>
+                        <th>班级</th>
+                        <th>专业</th>
+                    </tr>
+                    <tr align="center">
+                        <td>1000011</td>
+                        <td>张三</td>
+                        <td>男</td>
+                        <td>410727199710145468</td>
+                        <td>java1731</td>
+                        <td>互联网编程</td>
+                    </tr>
+                    <tr align="center">
+                        <td>1000012</td>
+                        <td>王武</td>
+                        <td>男</td>
+                        <td>410720199804063592</td>
+                        <td>java1731</td>
+                        <td>互联网编程</td>
+                    </tr>
+                    <tr align="center">
+                        <td>1000013</td>
+                        <td>赵六</td>
+                        <td>男</td>
+                        <td >410727199810091543</td>
+                        <td>java1731</td>
+                        <td>互联网编程</td>
+                    </tr>
+                    <tr align="center">
+                        <td>1000014</td>
+                        <td>尹梅</td>
+                        <td>女</td>
+                        <td>410727199911063157</td>
+                        <td>java1731</td>
+                        <td>互联网编程</td>
+                    </tr>
+                    <tr align="center">
+                        <td>1000015</td>
+                        <td>田甜</td>
+                        <td>女</td>
+                        <td>410727199703042145</td>
+                        <td>java1731</td>
+                        <td>互联网编程</td>
+                    </tr>
+                    <tr align="center">
+                        <td>1000016</td>
+                        <td>李斯</td>
+                        <td>男</td>
+                        <td>410727199804240862</td>
+                        <td>java1731</td>
+                        <td>互联网编程</td>
+                    </tr>
+                    <tr align="center">
+                        <td>1000017</td>
+                        <td>刘蕊</td>
+                        <td>女</td>
+                        <td>410727199909234582</td>
+                        <td>java1731</td>
+                        <td>互联网编程</td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+</head>
+<body align="center">
+<h1>河南林业职业学院管理系统</h1>
+用户名:<input type="text" name="username"><br><br>
+昵称:<input type="text" name="username"><br><br>
+身份证号:<input type="text" name="username"><br><br>
+手机号码:<input type="text" name="username"><br><br>
+验证码:<input type="text" name="username"><br><br>
+设置密码:<input type="text" name="username"><br><br>
+重新输入:<input type="text" name="username"><br><br>
+性别：<select name="sex">
+    <option value="男">男</option>
+    <option value="女" selected="selected">女</option>
+</select><br><br>
+<input type="submit" value="确认">
+</body>
+</html>
