@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>后台</title>
+</head>
+<style>
+
+    /*****头部和尾部******/
+    .top{height:5px;line-height:5px;background:#f6f6f6;width:100%;position:fixed;z-index:255;top:79px;text-align:center;}
+    .bottom{height:5px;line-height:5px;background:#f6f6f6;width:100%;position:fixed;z-index:255;bottom:50px;text-align:center;}
+    #header{height:80px;line-height:80px;background:#00a5a5;width:100%;position:absolute;z-index:5;top:0;text-align:center;}
+    .logo{line-height:80px;font-size:30px;color:#fff; letter-spacing:3px;margin-left:50px;float:left;}
+    .navigation{float:right;margin:5px 50px 0 0;color:#fff;font-size:14px;}
+    .navigation ul li{height:30px;line-height:30px;text-align:center;float:left;margin-left:15px;}
+    .navigation ul li a{color:#fff;}
+    .navigation ul li a:hover{color:#32323a;}
+
+    /**左侧菜单***/
+
+</style>
+<div class="top"></div>
+<div id="header">
+    <div class="logo">超市后台管理系统</div>
+    <div class="navigation">
+        <ul>
+            <li>欢迎您！</li>
+            <li><a href="">BOSS</a></li>
+            <li><a href="">修改密码</a></li>
+            <li><a href="">设置</a></li>
+            <li><a href="">退出</a></li>
+        </ul>
+    </div>
+</div>
+<div id="content">
+    <div class="left_menu">
+        <ul id="nav_dot">
+        <li>
+            <h4 class="M1"><span></span><option>商品管理</option></h4>
+            <div class="list-item none">
+                <a href=''>饮料</a>
+                <a href=''>日用品</a>
+                <a href=''>休闲食品</a>
+                <a href=''>办公用品</a>
+            </div>
+        </li>
+            <li>
+                <h4 class="M2"><span></span><option>销售商品</option></h4>
+                <div class="list-item none">
+                    <a href=''>销售出货单</a>
+                    <a href=''>销售进货单</a>
+                </div>
+            </li>
+            <li>
+                <h4 class="M3"><span></span>用户管理</h4>
+                <div class="list-item none">
+                    <a href=''>用户信息管理</a>
+                    <a href=''>用户留言记录</a>
+                </div>
+            </li>
+            <li>
+                <h4 class="M4"><span></span>管理员</h4>
+                <div class="list-item none">
+                    <a href=''>员工信息管理</a>
+                    <a href=''>注册新用户</a>
+                    <a href=''>修改密码</a>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+</div>
+<select>
+    <h4><option class="M4"><span></span>管理员</option></h4>
+    <h4><option class="M4"><span></span>员工信息管理</option></h4>
+    <h4><option class="M4"><span></span>注册新用户</option></h4>
+    <h4><option class="M4"><span></span>修改密码</option></h4>
+</select>
+
+</html>
