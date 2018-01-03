@@ -1,0 +1,52 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>ע��</title>
+        <style type="text/css">
+            #nv {
+                width: 400px;
+                color: #000;
+                border: 1px solid;
+
+            }
+            .t1{
+                width: 150px;
+                float: left;
+                text-align: right;
+
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+    <div id="nv">
+        <form>
+        <h1 align="center">�û���Ϣע��</h1>
+            <div class="t1">�û���:</div><div class="t2"></div>><input type="text"><br><br>
+        <div class="t1">�ǳ�:</div><input type="text"><br><br>
+        <div class="t1">����֤����:</div><input type="text"><br><br>
+        <div class="t1">����:</div><input type="password"><br><br>
+        <div class="t1">�ظ���������:</div><input type="password"><br><br>
+        <div class="t1">�Ա�:</div><input type="radio" checked �� name="sex">��
+        <input type="radio" Ů name="sex">Ů<br><br>
+        <div class="t1">����:</div><input type="checkbox">����<input type="checkbox">��ë��
+        <input type="checkbox">����<input type="checkbox">����
+        <input type="checkbox">����<input type="checkbox">����<br><br>
+        <div class="t1">�ֻ���:</div><input type="text"><br><br>
+        <div class="t1">��֤��:</div><input type="text"><br><br>
+        <div class="t1">ע����Դ:</div>
+        <select class="t1">
+            <option>�ƹ���</option>
+            <option>΢��</option>
+            <option>΢��</option>
+            <option>�û���Լ</option>
+            <option>����</option>
+        </select><br><br>
+        <input type="submit" value="�ύ"><input type="reset" value="����">
+        </form>
+    </div>
+    </body>
+    </html>
