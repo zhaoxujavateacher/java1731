@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <style type="text/css">
+        div{
+            text-align: center;
+            margin-right: 20px;
+        }
+        #di_2{
+            text-align: center;
+        }
+        .d1{
+            width: 700px;
+            text-align:right;
+            margin-right:0px;
+            float: left;
+        }
+        .d2{
+            text-align: left;
+        }
+        .d3{
+           text-align: left;
+            float: left;
+        }
+        .d4{
+            text-align: left;
+        }
+        #i1{
+            width: 800px;
+            float: left;
+            text-align: right;
+        }
+        #i2{
+            text-align: left;
+        }
+        #i3{
+            width: 750px;
+            text-align: right;
+            float: left;
+        }
+        #i4{
+            text-align:left;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <form>
+        <div id="di_2"><h1>注册新会员</h1></div>
+        <div class="d1">用户名:</div>
+        <div class="d2"><input type="text"> </div><br><br>
+        <div class="d1">email:</div>
+         <div class="d2">   <input type="text"> </div><br><br>
+        <div class="d1">密码:</div>
+         <div class="d2">   <input type="password"> </div><br><br>
+        <div class="d1">确认密码:</div>
+         <div class="d2">   <input type="password"> </div><br><br>
+        <div class="d1">性别:</div>
+         <div class="d3">   <input type="radio" value="男" name="sex">男</div>
+        <div class="d4"><input type="radio" value="女" name="sex">女</div><br><br>
+        <div class="d1">QQ:</div>
+         <div class="d2">   <input type="text"> </div><br><br>
+        <div class="d1">手机:</div>
+            <div class="d2"><input type="text"> </div><br><br>
+        <div class="d1">密码提示问题:</div>
+           <div class="d2"> <select name="problem">
+            <option value="请选择密码提示问题" selected>请选择密码提示问题</option>
+            <option value="您父亲的姓名" >您父亲的姓名</option>
+            <option value="您母亲的姓名">您母亲的姓名</option>
+            <option value="您高中班主任的姓名" >您高中班主任的姓名</option>
+            <option value="您大学班主任的姓名" >您大学班主任的姓名</option>
+        </select> </div><br><br>
+        <div class="d1">密码问题答案:</div>
+        <div class="d2"><input type="text"> </div><br><br>
+            <div id="i1"><input type="checkbox" value="我已经仔细阅读并接受《服务协议》">
+                我已经仔细阅读并接受</div>
+        <div id="i2"><a href="ZCX.html">《服务协议》</a> </div><br><br>
+            <div id="i3"><a href="cg.html"> <input type="submit" value="立即注册"></a></div>
+        <div id="i4"><input type="submit" value="重置"></div>
+    </form>
+</div>
+</body>
+</html>
