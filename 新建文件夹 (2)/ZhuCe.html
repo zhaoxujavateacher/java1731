@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>信息注册</title>
+    <style type="text/css">
+        body{
+            width: 1080px;
+            height: 800px;
+            margin: 0 auto;
+        }
+        #f_1{
+            width: 500px;
+            border: 1px solid;
+            text-align: center;
+        }
+        .f_2{
+            float: left;
+            margin-left:120px;
+        }
+        .f_3{
+            margin-left:40px;
+        }
+    </style>
+</head>
+<body>
+<div id="f_1">
+    <form method="post">
+        <h1>用户信息注册</h1>
+        <div class="f_2">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：<input type="text"></div><br><br>
+        <div class="f_2">性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别：<input type="radio" name="sex" value="男" checked>男
+        <input type="radio" name="sex" value="女">女</div><br><br>
+        <div class="f_2">密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码：<input type="password"></div><br><br>
+        <div class="f_2">确认密码&nbsp;：<input type="password"></div><br><br>
+        <div class="f_2">密码强度&nbsp;：<meter value="4" min="0" max="10">4/10</meter><meter value="0.7">70%</meter></meter><meter value="0.9">90%</meter></div><br><br>
+        <div class="f_2">手&nbsp;&nbsp;&nbsp;机&nbsp;&nbsp;&nbsp;号：<input type="text"></div><br><br>
+        <div class="f_2">身份证件&nbsp;：
+        <select>
+            <option>临时身份证</option>
+            <option>二代身份证</option>
+            <option>网络身份证</option>
+        </select></div><br><br>
+        <div class="f_2">身份证号&nbsp;：<input type="text"></div><br><br>
+        <div class="f_2">电子邮件&nbsp;：<input type="text"></div><br><br>
+        <div class="f_2">注册省份&nbsp;：
+        <select>
+            <option>河南省</option>
+            <option>四川省</option>
+            <option>云南省</option>
+            <option>河北省</option>
+            <option>湖南省</option>
+            <option>安徽省</option>
+            <option>浙江省</option>
+            <option>深圳市</option>
+            <option>上海市</option>
+            <option>黑龙江省</option>
+            <option>苏州省</option>
+            <option>蒙古省</option>
+        </select></div><br><br>
+        <input type="checkbox" class="f_2">我已阅读并同意《网站注册协议》《网站服务协议》和《网站隐私保护条款》。<br><br>
+        <input type="submit" value="注册" class="f_3"><input type="reset" value="重置"class="f_3">
+    </form>
+</div>
+</body>
+</html>
