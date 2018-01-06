@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>六人行</title>
+    <style type="text/css">
+        body{
+            margin: 0 auto;
+            padding: 0;
+        }
+        #f_1{
+            margin: 0 auto;
+            width: 700px;
+            height: 100px;
+        }
+        #logo{
+            background: url("images/logo.gif") no-repeat;
+            width: 170px;
+            height: 65px;
+            float: left;
+            margin-top: 18px;
+        }
+        li{
+            list-style: none;
+            float: left;
+            padding-left: 20px;
+            font-weight: bold;
+        }
+        a{
+            text-decoration: none;
+            color: darkgrey;
+        }
+        a:hover{
+            color: orange;
+        }
+        #nav{
+            position: relative;
+        }
+        #f_3{
+            position: absolute;
+            top: 25px;
+            width: 600px;
+            height: 50px;
+            margin-left:190px;
+        }
+        #icon{
+            width: 260px;
+            height: 30px;
+            border:dodgerblue 5px solid;
+            background: url("images/icon.gif") no-repeat 0px 6px;
+        }
+        #icon input{
+            width: 430px;
+            height: 30px;
+            margin-left: 30px;
+            border: 0px none;
+        }
+        .f_4{
+            width: 60px;
+            height: 50px;
+            border: 0px none;
+            color: #ffffff;
+            background: dodgerblue;
+            font-weight: bold;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+<div id="f_1">
+    <div id="logo"></div>
+    <div id="nav">
+        <div id="f_2">
+            <ul>
+                <li><a href="#">首页&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+                <li><a href="#">活动&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+                <li><a href="#">据点&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+                <li><a href="#">招贴&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+                <li><a href="#">VIP服务&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+                <li><a href="#">随便逛逛</a></li>
+            </ul>
+        </div>
+        <div id="f_3">
+           <table>
+               <tr>
+                   <td id="icon">
+                      <input type="text">
+                   </td>
+                   <td>
+                       <input type="button" value="找找！" class="f_4">
+                   </td>
+               </tr>
+           </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>
