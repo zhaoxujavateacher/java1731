@@ -1,0 +1,79 @@
+style type="text/css">
+    body{
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    head{
+        weight:600px;
+        height: 500px;
+        margin: 0 auto;
+        border: 2px;
+    }
+    #top{
+        text-decoration: none;
+        margin-left: 0;
+    }
+    li{
+        list-style: none;
+    }
+    #logo {
+        background: url("images/logo(2).gif)")no-repeat;
+        weight: 110px;
+        height: 70px;
+        margin-top: 10px;
+        float: left;
+    }
+    a{
+        text-decoration: none;
+        color:darkgray;
+        font-weight: bold;
+    }
+    query{
+        background-color: rosybrown;
+        border:0px none;
+        color:#FFFFFF;
+        font-weight: bold;
+        padding-left: 20px;
+    }
+    #search_left{
+        background: url("images/icon.gif") no-repeat 0px 0px;
+        width: 460px;
+        height£º30px;
+        border:darkgray 5px solid;
+    }
+</style>
+</head>
+<div id="head">
+    <div id="logo"></div>
+    <div id="nav">
+        <div id="top">
+            <ul>
+                <li><a href="#"> Ê×í“&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                <li><a href="#">»î„Ó&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                <li><a href="#">“þüc&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                <li><a href="#">ÕÐÙN&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                <li><a href="#"> vip·þ„Õ&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+                <li><a href="#"> ëS±ãÕNÕN</a></li>
+            </ul>
+        </div>
+        <div id="search">
+            <table>
+                <tr>
+                    <td>
+                        <div id="search_left">
+                            <input type="text">
+                        </div>
+                    </td>
+                    <td>
+                        <input type="button" value="ÕÒÕÒ!" class="query">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+</div>
+
+
+</div>
