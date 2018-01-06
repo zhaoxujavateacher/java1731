@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>head</title>
+    <style type="text/css">
+        #d1{
+            width: 800px;
+            height: 120px;
+            margin: 0 auto;
+        }
+        #d2{
+            width: 170px;
+            height: 65px;
+            background: url("images/logo.gif");
+            float: left;
+            margin-top: 20px;
+
+        }
+        #d3{
+            width: 600px;
+            height: 20px;
+
+
+        }
+        li{
+            list-style: none;
+            float: left;
+            position: relative;
+        }
+        a{
+            text-decoration: none;
+            color: gray;
+            font-weight: bold;
+
+        }
+        #d4{
+            position: absolute;
+            position: relative;
+            width: 410px;
+            height: 28px;
+            border: 5px solid;
+            border-color: deepskyblue;
+            background: url("images/icon.gif");
+        }
+        #d5{
+            position: absolute;
+          width: 65px;
+          height: 40px;
+            background: deepskyblue;
+            color: azure;
+            font-weight: bold;
+            font-size: 14px;
+            left: 710px;
+            top: 54px;
+        }
+
+    </style>
+</head>
+<body>
+<div id="d1">
+    <div id="d2"></div>
+    <div>
+        <div>
+            <ul id="d3">
+                <li><a href="#">首页</a>&nbsp;&nbsp;&nbsp;&nbsp;|</li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">活动</a>&nbsp;&nbsp;&nbsp;&nbsp;|</li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">据点</a>&nbsp;&nbsp;&nbsp;&nbsp;|</li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">招贴</a>&nbsp;&nbsp;&nbsp;&nbsp;|</li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">vip服务</a>&nbsp;&nbsp;&nbsp;&nbsp;|</li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">随便逛逛</a></li>
+            </ul>
+        </div>
+        <div >
+            <table>
+                <tr>
+                    <td>
+                        <input type="text" id="d4"> </td>
+                    <td><input type="button" value="找找！" id="d5"> </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>
