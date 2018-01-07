@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>头部</title>
+    <style type="text/css">
+        body{
+            margin: 0 auto;
+        }
+        #head{
+            width: 800px;
+            height: 100px;
+            margin: 0 auto;
+        }
+        #right{
+            width: 170px;
+            height: 65px;
+            background:url("logo.gif");
+            float: left;
+        }
+        li{
+            list-style: none;
+            float: left;
+            margin-left: 20px;
+        }
+        a{
+            text-decoration: none;
+            color: darkolivegreen;
+            font-weight: bold;
+        }
+        #down_img{
+            width: 420px;
+            height: 24px;
+            background:url("icon.gif");
+            border: #1e90ff 5px solid;
+        }
+        #down_img input{
+            width: 380px;
+            height:20px;
+            margin-left: 30px;
+            border: 0px none;
+        }
+        .find{
+            height: 40px;
+            background-color: #48adff;
+            border: 0px none;
+            color: #f6fcff;
+        }
+       </style>
+</head>
+<body>
+<div id="head">
+    <div id="right"></div>
+    <div id="left">
+        <div id="up">
+            <ul>
+                <li><a href="#">首页&nbsp;&nbsp;|</a></li>
+                <li><a href="#">活动&nbsp;&nbsp;|</a></li>
+                <li><a href="#">据点&nbsp;&nbsp;|</a></li>
+                <li><a href="#">招贴&nbsp;&nbsp;|</a></li>
+                <li><a href="#">VIP服务&nbsp;&nbsp;|</a></li>
+                <li><a href="#">随便逛逛&nbsp;&nbsp;|</a></li>
+            </ul>
+        </div>
+        <div id="down">
+            <table>
+                <tr>
+                    <td>
+                        <div id="down_img">
+                            <input type="text">
+                        </div>
+                    </td>
+                    <td>
+                        <input type="button" value="找找！" class="find">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>
