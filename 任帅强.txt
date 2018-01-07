@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>信息</title>
+</head>
+<body style="text-align: center">
+<table border="1" >
+    <tr>
+        <th>姓名</th><th>性别</th><th>年龄</th>
+    </tr>
+    <tr>
+        <td>马冬梅</td><td>女</td><td>28</td>
+    </tr>
+    <tr>
+        <td>冯提莫</td><td>女</td><td>20</td>
+    </tr>
+    <tr>
+        <td>崔浩宇</td><td>男</td><td>25</td>
+    </tr>
+    <tr>
+        <td>薛尖峰</td><td>男</td><td>26</td>
+    </tr>
+</table>
+</body>
+</html>
