@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>头部</title>
+    <style type="text/css">
+        body {
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        #head {
+            width: 800px;
+            height:100px;
+            margin: 0 auto;
+        }
+
+        #logo{
+            background: url("images/logo.gif") no-repeat;
+            width: 170px;
+            height: 65px;
+            float: left;
+            margin-top: 7px;
+        }
+        li{
+            list-style: none;
+            float: left;
+            margin-left: 20px;
+        }
+        a{
+            text-decoration: none;
+            color: darkgray;
+            font-weight: bold;
+        }
+
+        #nav_top{
+           position: relative;
+         }
+        #seach{
+            position: absolute;
+            top:40px;
+            width: 600px;
+            height: 50px;
+            margin-left: 190px;
+        }
+
+        #seach_img{
+            width: 460px;
+            height: 30px;
+            border: dodgerblue 5px solid;
+            background: url("images/icon.gif") no-repeat 0px 2px;
+        }
+        #seach_img input{
+            width: 420px;
+            height:24px;
+            margin-left: 30px;
+            border: 0px none;
+        }
+        .query{
+            height: 40px;
+            background-color: dodgerblue;
+            border: 0px none;
+            color: #FFFFFF;
+            font-weight: bold;
+            padding-left: 20px;
+        }
+
+    </style>
+</head>
+<body>
+<div id="head">
+    <div id="logo"></div>
+    <div id="nav">
+        <div id="nav_top">
+            <ul>
+                <li><a href="#">首页&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+                <li><a href="#">活动&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+                <li><a href="#">据点&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+                <li><a href="#">招贴&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+                <li><a href="#">VIP服务&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+                <li><a href="#">随便逛逛</a></li>
+            </ul>
+        </div>
+        <div id="seach">
+            <table>
+                <tr>
+                    <td>
+                        <div id="seach_img">
+                            <input type="text">
+                        </div>
+                    </td>
+                    <td><input type="button" value="找找！" class="query"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>
