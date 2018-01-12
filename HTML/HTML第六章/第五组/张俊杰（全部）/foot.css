@@ -1,0 +1,28 @@
+body{
+    margin: 0 auto;
+    padding: 0px;
+    width: 900px;
+    height: 800px;
+}
+#foot{
+    width: 87%;
+    height: 13%;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+    float: left;
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+    color: darkgray;
+}
+#foot_1{
+    position: relative;
+}
+#foot_2{
+    position: absolute;
+    top: 60px;
+    margin-left: 20px;
+}
