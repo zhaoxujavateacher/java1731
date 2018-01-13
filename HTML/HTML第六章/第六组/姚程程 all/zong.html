@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>六人行</title>
+    <style type="text/css">
+        body {
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        #zong {
+            width: 1030px;
+            height: 800px;
+            margin: 0 auto;
+        }
+
+        #head {
+            width: 800px;
+            height: 120px;
+            margin: 0 auto;
+        }
+
+        #logo {
+            background-image: url("images/logo.gif");
+            width: 170px;
+            height: 65px;
+            float: left;
+            margin-top: 3px;
+            margin-left: 15px;
+        }
+
+        #nav_top li {
+            list-style: none;
+            float: left;
+            margin: 0px 3px 0px 15px;
+        }
+
+        #nav_top a {
+            font-size: 14px;
+            text-decoration: none;
+            color: #999999;
+            font-weight: bold;
+        }
+
+        #nav_top {
+            position: relative;
+        }
+
+        #nav_seach {
+            position: absolute;
+            top: 30px;
+            margin-left: 195px;
+        }
+
+        #seach_img {
+            width: 390px;
+            height: 25px;
+            border: deepskyblue 5px solid;
+            margin-top: 10px;
+        }
+
+        .img {
+            width: 30px;
+            height: 30px;
+            background: url("images/icon.gif") no-repeat 0px -1px;
+            border: 0px none;
+        }
+
+        .srk {
+            width: 350px;
+            height: 15px;
+            border: 0px none;
+            padding-top: 7px;
+        }
+
+        .query {
+            font-size: 14px;
+            height: 34px;
+            width: 77px;
+            background-color: deepskyblue;
+            border: 0px none;
+            color: #FFFFFF;
+            font-weight: bold;
+            padding-left: 10px;
+            margin-top: 10px;
+        }
+
+        #center {
+            margin-top: -30px;
+            width: 967px;
+            height: 553px;
+        }
+
+        #bottom {
+            width: 600px;
+            height: 550px;
+            float: left;
+        }
+
+        #menu a {
+            text-decoration: none;
+            color: darkorange;
+        }
+
+        #top1 {
+            margin-top: 10px;
+            margin-left: 10px;
+            background: url("images/focus.gif") no-repeat;
+            width: 578px;
+            height: 190px;
+        }
+
+        #menu span {
+            color: dodgerblue;
+        }
+
+        #first {
+            float: left;
+        }
+
+        #menu {
+            width: 600px;
+            height: 460px;
+            border: 1px darkgray solid;
+            float: left;
+        }
+
+        #first, #second {
+            margin-top: 7px;
+            width: 290px;
+            height: 220px;
+        }
+
+        #second {
+            margin-left: 300px;
+        }
+
+        .img_01 {
+            width: 50px;
+            height: 50px;
+            padding: 5px 1px;
+        }
+
+        #menu dl {
+            margin-top: 5px;
+            height: 60px;
+        }
+
+        #menu dt {
+            margin-left: 10px;
+            float: left;
+        }
+
+        #menu dd {
+            line-height: 19px;
+            color: #999999;
+            font-size: 14px;
+            margin-left: 70px;
+        }
+
+        .title {
+            font-size: 14px;
+            font-weight: bold;
+            color: dimgrey;
+            margin-left: 10px;
+        }
+
+        #third {
+            background: url("images/advfasion.gif") no-repeat;
+            width: 602px;
+            height: 82px;
+            margin-top: 470px;
+        }
+
+        #all {
+            margin-left: 615px;
+            width: 352px;
+            height: 549px;
+        }
+
+        #one {
+            line-height: 25px;
+            background-color: aliceblue;
+            width: 340px;
+            height: 195px;
+            border: 1px darkgray solid;
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+
+        .z_1 {
+            margin-left: -2px;
+            font-size: 14px;
+            color: dodgerblue;
+        }
+
+        .k_1 {
+            width: 250px;
+        }
+
+        #z_2 {
+            margin-left: -4px;
+            color: #777777;
+            font-size: 14px;
+        }
+
+        .z_3 {
+            color: #777777;
+            padding-top: 10px;
+            font-size: 17px;
+            margin-left: 20px;
+        }
+
+        .z_4 {
+            font-size: 14px;
+            padding-left: 5px;
+        }
+
+        #one a {
+            text-decoration: none;
+            color: dodgerblue;
+        }
+
+        #two a {
+            text-decoration: none;
+            color: #777777;
+        }
+
+        .d_1 {
+            color: aliceblue;
+            background-color: darkorange;
+            width: 95px;
+            height: 30px;
+            font-weight: bold;
+        }
+
+        #two {
+            margin-top: 10px;
+            background-color: aliceblue;
+            width: 350px;
+            height: 45px;
+            border: 1px darkgray solid;
+        }
+
+        #three {
+            margin-top: 10px;
+            width: 350px;
+            height: 187px;
+            border: 1px darkgray solid;
+        }
+
+        #th_1 {
+            height: 23px;
+            background-color: #f0f0f0;
+        }
+
+        .tit_1 {
+            line-height: 23px;
+            font-size: 14px;
+            font-weight: bold;
+            color: dimgrey;
+            margin-left: 12px;
+        }
+
+        #three a {
+            text-decoration: none;
+            color: darkorange;
+        }
+
+        hr {
+            margin: 0 auto;
+            size: 1px;
+        }
+
+        .sp_1 {
+            color: dodgerblue;
+            font-size: 14px;
+        }
+
+        .sp_2 {
+            color: #777777;
+            font-size: 14px;
+        }
+
+        .img_1 {
+            width: 50px;
+            height: 50px;
+            padding-left: 12px;
+        }
+
+        #th_2 {
+            float: left;
+        }
+
+        #th_3 {
+            margin-left: 165px;
+        }
+
+        #th_2, #th_3 {
+            width: 164px;
+            height: 163px;
+        }
+
+        #th_2 dl, #th_3 dl {
+            margin-top: 7px;
+            height: 60px;
+        }
+
+        #th_2 dt, #th_3 dt {
+            margin-top: 6px;
+            float: left;
+        }
+
+        #th_2 dd, #th_3 dd {
+            line-height: 20px;
+            margin-left: 70px;
+        }
+
+        #four {
+            background: url("images/train.gif") no-repeat;
+            width: 290px;
+            height: 80px;
+            margin-top: 10px;
+        }
+
+        #foot {
+            margin-top: 15px;
+            width: 967px;
+            height: 65px;
+        }
+
+        #foot li {
+            margin-left: 13px;
+            line-height: 1px;
+            font-size: 12px;
+            float: left;
+            list-style: none;
+        }
+
+        #fo_1 {
+            padding-left: 120px;
+            width: 845px;
+            height: 30px;
+            background-color: #f0f0f0;
+            padding-top: 1px;
+        }
+
+        #fo_2 {
+            line-height: 20px;
+            margin-left: 114px;
+            font-size: 13px;
+        }
+
+        #fo_2 span {
+            color: #777777;
+        }
+    </style>
+</head>
+<body>
+<div id="zong">
+    <div id="head">
+        <div id="logo"></div>
+        <div id="nav">
+            <div id="nav_top">
+                <ul>
+                    <li><a href="#">首页&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+                    <li><a href="#">活动&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+                    <li><a href="#">据点&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+                    <li><a href="#">招贴&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+                    <li><a href="#">VIP服务&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+                    <li><a href="#">随便逛逛</a></li>
+                </ul>
+            </div>
+            <div id="nav_seach">
+                <table>
+                    <tr>
+                        <td>
+                            <div id="seach_img">
+                                <input type="button" class="img">
+                                <input type="text" class="srk">
+                            </div>
+                        </td>
+                        <td><input type="button" value="找找！" class="query"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="center">
+        <div id="bottom">
+            <div id="menu">
+                <div id="top1"></div>
+                <div id="first">
+                    <span class="title">参加丰富的<a href="#">活动</a></span>
+                    <dl>
+                        <dt><img src="images/act1.gif" class="img_01"></dt>
+                        <dd>[培训]<span> 11月17号婚恋心理工作坊（</span><br>
+                            活动介绍婚恋心理工作坊：单身人<br>
+                            士进入婚恋关系的十大障碍...
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="images/act2.jpg" class="img_01"></dt>
+                        <dd>[演出]<span> 天籁之夜——尚雯婕2009北</span><br>
+                            尚雯婕2009北京演唱会 天籁之夜<br>
+                            ——尚雯婕2009巡回演唱会/音乐会...
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="images/act3.jpg" class="img_01"></dt>
+                        <dd>[休闲户外]<span>  爱旅行 11月8号周日黄</span><br>
+                            【行程安排】早7:50集合，8:00<br>
+                            出发，集合地：河南林业职业学院行政大楼
+                        </dd>
+                    </dl>
+                </div>
+                <div id="second">
+                    <span class="title">加入身边的<a href="#">据点</a></span>
+                    <dl>
+                        <dt><img src="images/spot1.gif" class="img_01"></dt>
+                        <dd>剧场<span> 梅兰芳大剧院</span><br>
+                            拥有者：（价值：3000<img src="images/money.gif">）<br>
+                            地址：西城区平安里西大街32号
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="images/spot2.gif" class="img_01"></dt>
+                        <dd>滑雪场<span> 莲花山滑雪场</span><br>
+                            拥有者：（价值：4000<img src="images/money.gif">）<br>
+                            地址：顺义区张镇良山东路南50<br>
+                            米
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="images/spot3.gif" class="img_01"></dt>
+                        <dd>餐厅<span>四川简阳羊肉汤</span><br>
+                            拥有者：（价值：11600<img src="images/money.gif">）<br>
+                            地址：朝阳区金台路9路总站西100<br>
+                            米
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="third"></div>
+        </div>
+        <div id="all">
+            <div id="one">
+                <div><img src="images/login.jpg"></div>
+                <div><span class="z_1">你的手机号：</span></div>
+                <input type="text" class="k_1">
+                <div><span class="z_1">你的密码：</span></div>
+                <input type="text" class="k_1">
+                <div id="z_2"><input type="checkbox"><span>在这台电脑上记住我</span></div>
+                <div><input type="button" value="登陆" class="d_1"><a href="#"><span class="z_4">忘记密码？</span></a></div>
+            </div>
+            <div id="two">
+                <div class="z_3"><span>还不是六人行会员？</span>
+                    <a href="#"><span>马上注册</span></a>
+                </div>
+            </div>
+            <div id="three">
+                <div id="th_1"><span class="tit_1">找到身边的<a href="#">邻居</a></span>
+                    <hr color="deepskyblue">
+                </div>
+                <div id="th_2">
+                    <dl>
+                        <dt><img src="images/neighbor1.jpg" class="img_1"></dt>
+                        <dd><span class="sp_1">圣哲西</span><br>
+                            <span class="sp_2">所在写字楼</span><br>
+                            <span class="sp_1">华杰大厦</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="images/neighbor2.jpg" class="img_1"></dt>
+                        <dd><span class="sp_1">凤凰花</span><br>
+                            <span class="sp_2">所在写字楼</span><br>
+                            <span class="sp_1">大成国际中<br>心
+                        </span>
+                        </dd>
+                    </dl>
+                </div>
+                <div id="th_3">
+                    <dl>
+                        <dt><img src="images/neighbor4.jpg" class="img_1"></dt>
+                        <dd><span class="sp_1">zhangj</span><br>
+                            <span class="sp_2">所在写字楼</span><br>
+                            <span class="sp_1">海龙大厦</span>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="images/neighbor3.jpg" class="img_1"></dt>
+                        <dd><span class="sp_1">镜花水</span><br>
+                            <span class="sp_2">所在写字楼</span><br>
+                            <span class="sp_1">SOHO现代城</span>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+            <div id="four">
+            </div>
+        </div>
+    </div>
+    <div id="foot">
+        <div id="fo_1">
+            <ul>
+                <li>首页</li>
+                <li>关于</li>
+                <li>广告</li>
+                <li>服务</li>
+                <li>指南</li>
+                <li>声明</li>
+                <li>联系</li>
+                <li>举报</li>
+                <li>给6人行发私信</li>
+                <li>客服&nbsp;010-84988367</li>
+                <li>户外网站联盟</li>
+            </ul>
+        </div>
+        <div id="fo_2">
+            <dl>
+                <dt>
+                <dd><span>copyright&nbsp;六人行&nbsp;2009</span>&nbsp;中文(简体)
+                    <span>《中华人民共和国电信与信息服务业务经营许可证》编号：京ICP证060911号</span></dd>
+                </dt>
+            </dl>
+        </div>
+    </div>
+</div>
+</body>
+</html>

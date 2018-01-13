@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>头部</title>
+    <style type="text/css">
+        body{
+            margin: 0 auto;
+            padding: 0;
+        }
+        #head{
+            width: 800px;
+            height: 120px;
+            margin: 0 auto;
+        }
+        #logo{
+            background-image: url("images/logo.gif");
+            width: 170px;
+            height: 65px;
+            float: left;
+            margin-top: 12px;
+        }
+        li{
+            list-style:none;
+            float: left;
+            margin-left: 20px;
+        }
+        a{
+            text-decoration:none;
+            color: #999999;
+            font-weight: bold;
+        }
+        #nav_top{
+            position: relative;
+        }
+        #nav_seach{
+            position: absolute;
+            top: 40px;
+            width: 600px;
+            height: 50px;
+            margin-left: 188px;
+        }
+        #seach_img{
+           width: 440px;
+            height:35px;
+            border: deepskyblue 5px solid;
+        }
+        .img{
+            width: 35px;
+            height:30px;
+            background: url("images/icon.gif") no-repeat 0px 3px;
+            border: 0px none;
+        }
+        .srk{
+            width: 393px;
+            height:32px;
+            border: 0px none;
+            line-height: 24px;
+        }
+        .query{
+            height: 45px;
+            background-color:deepskyblue;
+            border: 0px none;
+            color: #FFFFFF;
+            font-weight: bold;
+            padding-left: 17px;
+        }
+    </style>
+</head>
+<body>
+<div id="head">
+    <div id="logo"></div>
+    <div id="nav">
+        <div id="nav_top">
+            <ul>
+                <li><a href="#">首页&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+                <li><a href="#">活动&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+                <li><a href="#">据点&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+                <li><a href="#">招贴&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+                <li><a href="#">VIP服务&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+                <li><a href="#">随便逛逛</a></li>
+            </ul>
+        </div>
+        <div id="nav_seach">
+            <table>
+                <tr>
+                    <td>
+                        <div id="seach_img">
+                            <input type="button" class="img">
+                            <input type="text" class="srk">
+                        </div>
+                    </td>
+                    <td><input type="button" value="找找！" class="query"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>

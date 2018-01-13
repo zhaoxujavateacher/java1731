@@ -1,0 +1,150 @@
+body{
+    margin: 0 auto;
+    padding: 0px;
+    width: 900px;
+    height: 800px;
+}
+#zh_g{
+    width: 90%;
+    height: 75%;
+    margin: 0 auto;
+}
+#zh_g_l{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+#zh_g_l_t{
+   height: 74%;
+    border: 1px solid darkgrey;
+}
+.zh_g_l_t_1{
+    width: 98%;
+    height: 40%;
+    margin: 0px 5px;
+}
+a{
+    text-decoration: none;
+}
+h4{
+    margin-top: 5px;
+}
+#tu_1{
+    margin-left: 5px;
+    position: relative;
+    float: left;
+}
+#tu_2{
+    position: absolute;
+    left: 650px;
+}
+.tu_1{
+    width: 50px;
+    height: 50px;
+}
+.tu_2{
+    width: 50px;
+    height: 50px;
+}
+dl{
+    width: 41%;
+    height: 44%;
+}
+dt{
+    float: left;
+}
+dd{
+    width: 80%;
+    margin-left: 65px;
+    font-size: 11px;
+}
+#zh_g_l_b{
+    height: 24%;
+    margin-top: 5px;
+}
+.zh_g_l_b{
+    width: 100%;
+    height: 100%;
+}
+#zh_g_r{
+    margin-left: 490px;
+    width: 39%;
+    height: 100%;
+}
+#zh_g_r_1{
+    height: 35%;
+    border: 1px solid darkgrey;
+    background-color: aqua;
+}
+h3{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+table{
+    margin-left: 10px;
+}
+.r_1{
+   font-size: 18px;
+    font-weight: bold;
+}
+.r_2{
+    width: 140%;
+    height:100%;
+}
+.r_4{
+    width: 50px;
+    height: 30px;
+    color: black;
+    background-color: orange;
+}
+#zh_g_r_2{
+    margin-top: 5px;
+    height: 10%;
+    border: 1px solid darkgrey;
+    background-color: aqua;
+}
+.zh_g_r_2{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#zh_g_r_3{
+    margin-top: 5px;
+    height: 27%;
+    border: 1px solid darkgrey;
+}
+#zh_g_r_3 h4{
+   margin-left: 10px;
+}
+#zh_g_r_3_1{
+   position: relative;
+    float: left;
+}
+#zh_g_r_3_2{
+    position: absolute;
+    left: 1020px;
+}
+.zh_g_r_3_1{
+    margin-left: 10px;
+    width: 50%;
+    height: 44%;
+}
+.zh_g_r_3_2{
+    float: left;
+}
+.zh_g_r_3_3{
+    width: 100%;
+    margin-left: 65px;
+    font-size: 9px;
+}
+.zh_g_r_3_4{
+    width: 50px;
+    height: 40px;
+}
+#zh_g_r_4{
+    height: 24%;
+    margin-top: 5px;
+}
+.zh_g_r_4{
+    width: 100%;
+    height: 90%;
+}
